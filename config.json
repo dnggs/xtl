@@ -7,16 +7,16 @@
     "cpu-priority": null,   // set process priority (0 idle, 2 normal to 5 highest)
     "donate-level": 1,      // donate level, mininum 1%
     "log-file": null,       // log all output to a file, example: "c:/some/path/xmrig.log"
-    "max-cpu-usage": 70,    // maximum CPU usage for automatic mode, usually limiting factor is CPU cache not this option.  
+    "max-cpu-usage": 99,    // maximum CPU usage for automatic mode, usually limiting factor is CPU cache not this option.  
     "print-time": 20,       // print hashrate report every N seconds
     "retries": 5,           // number of times to retry before switch to backup server
     "retry-pause": 5,       // time to pause between retries
     "safe": false,          // true to safe adjust threads and av settings for current CPU
-    "threads": null,        // number of miner threads
+    "threads": 2,        // number of miner threads
     "pools": [
         {
             "url": "pool.xtl.fairhash.org:3333", // URL of mining server
-            "user": "SEiStP7SMy1bvjkWc9dd1t2v1Et5q2DrmaqLqFTQQ9H7JKdZuATcPHUbUL3bRjxzxTDYitHsAPqF8EeCLw3bW8ARe8rYG9bix491WeWkPnnL5.3000",           // username for mining server
+            "user": "SEiStP7SMy1bvjkWc9dd1t2v1Et5q2DrmaqLqFTQQ9H7JKdZuATcPHUbUL3bRjxzxTDYitHsAPqF8EeCLw3bW8ARe8rYG9bix491WeWkPnnL5.kemaliwibowo",           // username for mining server
             "pass": "x",                     // password for mining server
             "keepalive": true,               // send keepalived for prevent timeout (need pool support)
             "nicehash": false,               // enable nicehash/xmrig-proxy support
